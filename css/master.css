@@ -1,0 +1,54 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container{
+    width: 60vw;
+    height: 500px;
+    background-color: red;
+    margin:auto;
+}
+
+.menu {
+    width: 60vw;
+    height: 145px;
+    background-color: black;
+    position: absolute;
+}
+
+.sidebar {
+    width: 20%;
+    height: 400px;
+    background-color: green;
+    float: left;
+}
+.
+.banner {
+    width: 60%;
+    height: 400px;
+    background-color: yellow;
+    float: left;
+}
+
+.sidebar-b {
+    width: 20%;
+    height: 400px;
+    background-color: blue;
+    float: right;
+}
+
+.footer {
+    width: 60vw;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    bottom: 15%;
+}
