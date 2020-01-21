@@ -12,45 +12,43 @@
 
 .container{
     width: 60vw;
-    height: 800px;
-    background-color: white;
-    margin:0 auto;
+    height: 500px;
+    background-color: red;
+    margin:auto;
 }
 
 .menu {
     width: 60vw;
     height: 145px;
-    background-color: lightgrey;
-    border: solid black 1px;
+    background-color: black;
     position: absolute;
 }
 
 .sidebar {
-    width: 10%;
-    height: 250px;
-    background-color: lightgrey;
-    border: solid black 1px;
-    position: absolute;
-    top: 25%;
-
+    width: 20%;
+    height: 500px;
+    background-color: green;
+    float: left;
+}
+.
+.banner {
+    width: 60%;
+    height: 500px;
+    background-color: yellow;
+    float: left;
 }
 
-.banner {
-    width: 50.3%;
-    height: 350px;
-    background-color: lightgrey;
-    border: solid black 1px;
-    position: absolute;
-    bottom: 80px;
-    left: 30%;
-    top: 25%;
+.sidebar-b {
+    width: 20%;
+    height: 500px;
+    background-color: blue;
+    float: right;
 }
 
 .footer {
     width: 60vw;
-    height: 80px;
-    background-color: lightgrey;
-    border: solid black 1px;
+    height: 100px;
+    background-color: yellow;
     position: absolute;
-    bottom: 10px;
+    bottom: 15%;
 }
